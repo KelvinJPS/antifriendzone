@@ -1,0 +1,19 @@
+﻿<Window x:Class="antifriendzone.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:antifriendzone"
+        Title="MainWindow" Height="450" Width="600"  WindowStyle="None" ResizeMode="NoResize" >
+
+    <Grid>
+        <Label FontSize="40" Content="¿Quieres ser  mi novia?" Margin="10,10,0,10" HorizontalAlignment="Center"/>
+        <Button  Height="30" Width="80" Name="BSI" Click="Button_Click" Margin="97,300,423,120" >Si</Button>
+        <Button Height="30" Width="80" Name="BNO" MouseMove="moverboton" Margin="390,300,130,120" >NO
+        </Button>
+
+        <Button  Height="30" Width="30" BorderBrush="Red" Background="White" Click="Button_Click_1" Margin="570,0,0,420">x</Button>
+
+
+    </Grid>
+</Window>
